@@ -19,5 +19,6 @@ explore: accessos_clientes {
     type: left_outer
     sql_on: ${accessos_clientes.cuenta} = ${pre_pay_studio_movements_v.num_cuenta};;
     relationship:many_to_many
+
   }
   }
